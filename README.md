@@ -8,6 +8,8 @@ Create your own DAKboard, a beautiful wall display for your photos,
 calendar, news and weather, powered by a Raspberry Pi!
 https://dakboard.com
 
+![DAKboard ex](https://dakboard.com/img/product-photos/wall-display-room.jpg)
+
 Yup, I'm cheating. My project is not really an extension.
 I am just finding a way to switch chromium tabs or application
 with an external hardware. External Keybord connected to the 
