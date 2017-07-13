@@ -32,7 +32,9 @@ It is very easy to send keyboard keycode to the raspberry/chromium from
 an external keyboard plugged to the arduino GPIOs.
 Let's talk about a 4 keys flexible keyboard to stick in front of the display.
 Like this one:
-![4x1](./docs/4keys.png)![4x3](./docs/12keys.jpg)
+
+<img src="./docs/4keys.png" width="250" height="160" alt="4 keys keybord">
+<img src="./docs/12keys.jpg" width="200" height="200" alt="12 keys keybord">
 
 
 ## Setup a free DAKboard based on Raspberry pi
