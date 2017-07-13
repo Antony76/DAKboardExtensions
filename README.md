@@ -13,12 +13,12 @@ https://dakboard.com
 Yup, I'm cheating. My project is not really an extension.
 I am just finding a way to switch chromium tabs or application
 with an external hardware. External Keybord connected to the 
-raspberry in the mean time.
+raspberry for the moment.
 
 ## The idea
 The DAKboard is very useful and estheticaly perfect but I am expecting
 more information from a dashboard. Let's say traffic, specific wind forcast,
-trades and so one. DAKboard is actually running a Chromium tab in full
+trades and so on. DAKboard is actually running a Chromium tab in full
 screen mode. Nothing else complicated. What about to open new tabs with
 websites to display?
 
@@ -40,7 +40,26 @@ Like this one:
 ## Setup a free DAKboard based on Raspberry pi
 
 The full setup of the raspberry pi to run DAKboard is detailed here:
-https://dakboard.com/blog/diy-wall-display/
+https://dakboard.com/blog/diy-wall-display/ <br>
+**Go te next step when it's done**
 
-## 
+## How to enhance the DAKboard
+DAKboard on raspberry is displaying a predefined web page with chromium in full screen mode <br>
+Chromium is launched at the startup like this:<br>
+
+>sudo nano ~/.config/lxsession/LXDE-pi/autostart<br>
+>@chromium-browser --noerrdialogs --incognito --kiosk http://dakboard.com/app/?p=YOUR_PRIVATE_URL<br>
+
+It's very easy to add tabs. Just add the URL in the lane.<br>
+
+>sudo nano ~/.config/lxsession/LXDE-pi/autostart<br>
+>@chromium-browser --noerrdialogs --incognito --kiosk http://dakboard.com/app/?p=YOUR_PRIVATE_URL http://website_opened_in_tab2 http://website_opened_in_tab3 <br>
+
+There is several ways to move in the tab list opened in chromium. Let's focus in this two:<br>
+The first one is CTRL+TAB to move to the next tab and CTRL+SHIFT+TAB to move backward. This is quit interesting when a lot of tabs are opened. Only 1 key is requiered to navigate.<br>
+The second way is to use CTRL+1 to move to tab 1, CTRL+2 to move to tab 2 and so on. This is a direct access to the webpage when few tabs are opened. A 4 keys keyboard to manage 4 tabs. The 4 keys keyboard stick on the side of the screen make it very discret. This is what I am using.
+
+## Emulate the keyboard with an Arduino
+
+
 To be continued ...
