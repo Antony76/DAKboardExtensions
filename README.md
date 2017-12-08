@@ -26,6 +26,9 @@ websites to display?
 What about to build a user interface feeling like in Minority Report?<br>
 The APDS-9960 sensor offers proximity detection and touchless gesture sensing. With this gesture Sensor it will be possible to control the dashboard with a simple swipe of the hand!
 
+![Gesture sensor](https://github.com/Antony76/DAKboardExtensions/blob/master/docs/APDS-9960.jpg)
+
+
 ## Setup a free DAKboard based on Raspberry pi
 
 The full setup of the raspberry pi to run DAKboard is detailed here:
