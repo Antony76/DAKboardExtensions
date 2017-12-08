@@ -20,9 +20,9 @@ The DAKboard is very useful and estheticaly perfect but I am expecting
 more information from a dashboard. Let's say traffic, specific wind forcast,
 trades and so on. DAKboard is actually running a Chromium tab in full
 screen mode. Nothing else complicated. What about to open new tabs with
-websites to display?
+websites to display?<br>
+A new question is raising. How to interact with the display to switch the tabs?<br>
 
-## Technicaly
 What about to build a user interface feeling like in Minority Report?<br>
 The APDS-9960 sensor offers proximity detection and touchless gesture sensing. With this gesture Sensor it will be possible to control the dashboard with a simple swipe of the hand!
 
