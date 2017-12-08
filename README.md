@@ -23,19 +23,8 @@ screen mode. Nothing else complicated. What about to open new tabs with
 websites to display?
 
 ## Technicaly
-Arduino Leonardo or Arduino micro are similar to an Arduino UNO,
-but they can be recognized by computer as a mouse or keyboard.
-All the boards embedding an ATmega32u4. This is not the case of the arduino UNO.
-https://store.arduino.cc/arduino-leonardo-with-headers
-
-It is very easy to send keyboard keycode to the raspberry/chromium from
-an external keyboard plugged to the arduino GPIOs.
-Let's talk about a 4 keys flexible keyboard to stick in front of the display.
-Like this one:
-
-<img src="./docs/4keys.png" width="250" height="160" alt="4 keys keybord">
-<img src="./docs/12keys.jpg" width="200" height="200" alt="12 keys keybord">
-
+What about to build a user interface feeling like in Minority Report?
+The APDS-9960 sensor offers proximity detection and touchless gesture sensing. With this Gesture Sensor you will be able to control the dashboard with a simple swipe of your hand! 
 
 ## Setup a free DAKboard based on Raspberry pi
 
@@ -57,9 +46,14 @@ It's very easy to add tabs. Just add the URL in the lane.<br>
 
 There is several ways to move in the tab list opened in chromium. Let's focus in this two:<br>
 The first one is CTRL+TAB to move to the next tab and CTRL+SHIFT+TAB to move backward. This is quit interesting when a lot of tabs are opened. Only 1 key is requiered to navigate.<br>
-The second way is to use CTRL+1 to move to tab 1, CTRL+2 to move to tab 2 and so on. This is a direct access to the webpage when few tabs are opened. A 4 keys keyboard to manage 4 tabs. The 4 keys keyboard stick on the side of the screen make it very discret. This is what I am using.
+The second way is to use CTRL+1 to move to tab 1, CTRL+2 to move to tab 2 and so on. This is a direct access to the webpage when few tabs are opened.<br>
+The expectation is to switch tabs left or right regarding the swipe of the habd direction.<br>
+Swipe left = ctrl+tab<br>
+Swipe right = ctrl+shift+tab<br>
+Swipe up = page down<br>
+Swipe down = page up<br>
 
-## Emulate the keyboard with an Arduino
-
+## Setup the ADPS-9960 python script
 
 To be continued ...
+<br>
