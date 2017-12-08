@@ -23,8 +23,8 @@ screen mode. Nothing else complicated. What about to open new tabs with
 websites to display?
 
 ## Technicaly
-What about to build a user interface feeling like in Minority Report?
-The APDS-9960 sensor offers proximity detection and touchless gesture sensing. With this Gesture Sensor you will be able to control the dashboard with a simple swipe of your hand! 
+What about to build a user interface feeling like in Minority Report?<br>
+The APDS-9960 sensor offers proximity detection and touchless gesture sensing. With this gesture Sensor it will be possible to control the dashboard with a simple swipe of the hand!
 
 ## Setup a free DAKboard based on Raspberry pi
 
@@ -53,7 +53,13 @@ Swipe right = ctrl+shift+tab<br>
 Swipe up = page down<br>
 Swipe down = page up<br>
 
-## Setup the ADPS-9960 python script
+## Setup the APDS-9960 python script
+
+The script I wrote for this gesture control is based on Thomas Liske python library for the APDS-9960 gesture sensor. (Which is also a port of the APDS-9960 Raspberry Pi Library of Justin Woodman).<br>
+
+git clone https://github.com/liske/python-apds9960.git
+
+
 
 To be continued ...
 <br>
